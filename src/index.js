@@ -7,7 +7,6 @@ const collection = require("./mongoDb")
 
 const templatePath=path.join(__dirname, '../templates')
 
-
 app.use(express.json())
 app.set("view engine", "hbs")
 app.set("views", templatePath)
